@@ -8,7 +8,7 @@ import mongoose from "mongoose";
 const app = express();
 const PORT = 5000;
 const username = encodeURIComponent("<username>");
-const password = encodeURIComponent("Ripu@12345");
+ 
 const dbUrl = `mongodb+srv://Ripu:${password}@cluster0.hirzlqz.mongodb.net/splitwise?appName=Cluster0`;
 
 // Middleware
